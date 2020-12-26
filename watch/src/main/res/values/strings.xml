@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Heart Rate</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="channel_name">channel_name</string>
+    <string name="channel_description">channel_description</string>
+    <string name="notification_title">Fast heart rate!</string>
+    <string name="notification_description">Please check your heart rate immediately!</string>
+</resources>
