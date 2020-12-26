@@ -139,7 +139,7 @@ public class DataLayerService extends WearableListenerService {
                     sendTask.addOnFailureListener(new OnFailureListener() {
                         @Override
                         public void onFailure(@NonNull Exception e) {
-                            Log.e(LOG_TAG, String.format("Failed to sent message: target=%s, path=%s, data=%s", nodeID, path, data), e);
+                            Log.e(LOG_TAG, String.format("Failed to send message: target=%s, path=%s, data=%s", nodeID, path, data), e);
                         }
                     });
                 }
