@@ -1,4 +1,4 @@
-# Heart rate
+# Heart Rate
 This is an example for bidirectional communication between smartwatch and smartphone.
 
 The smartwatch app displays the measured heart rate and sends it to connected devices (path: /heart_rate).
